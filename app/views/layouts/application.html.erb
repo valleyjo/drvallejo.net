@@ -30,7 +30,7 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="<%= 'active' if params[:controller] == 'welcome' %>"> <a href="<%= welcome_path %>">Home</a></li>
+              <li class="<%= 'active' if params[:controller] == 'welcome' %>"> <a href="<%= root_path %>">Home</a></li>
               <li class="<%= 'active' if params[:controller] == 'documents' %>"> <a href="<%= documents_path %>">Documents</a></li>
               <li class="<%= 'active' if params[:controller] == 'videos' %>"> <a href="<%= videos_path %>">Videos</a></li>
               <li class="dropdown">
@@ -54,17 +54,6 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </div>
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
-    </div> <!-- /container -->
 
 <%= yield %>
 
