@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Document.create(name: 'Example Document', source_url: 'http://example.com',
+                description: 'This is an example description. This text can be a little longer (up to 150 characters).')
+
