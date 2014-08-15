@@ -6,6 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Document.create(name: 'Example Document', source_url: 'http://example.com',
-                description: 'This is an example description. This text can be a little longer (up to 150 characters).')
+Document.create(name: 'Principals of Obstetric Anesthesia',
+                source_url: 'https://drvallejo.blob.core.windows.net/documents/principles_of_obstetric_anesthesia.docx',
+                description: '')
 
+Document.create(name: 'Epidural Normogram',
+                source_url: 'https://drvallejo.blob.core.windows.net/documents/epidural_normogram.pdf',
+                description: '')
