@@ -1,6 +1,9 @@
 DrvallejoNet::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Google analytics tracking code
+  GA.tracker = "UA-34192526-1"
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
