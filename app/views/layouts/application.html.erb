@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Dr. Vallejo's Educational Website</a>
+            <a class="navbar-brand" href="<%= root_path %>">Dr. Vallejo's Educational Website</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -40,18 +40,7 @@
               <li class="<%= 'active' if params[:controller] == 'documents' %>">
                 <a href="<%= documents_path %>">Documents</a></li>
               <li class="<%= 'active' if params[:controller] == 'videos' %>">
-              <a href="<% videos_path %>" class="dropdown-toggle"
-                data-toggle="dropdown">Videos<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Title 1</a></li>
-                  <li><a href="#">Title 2</a></li>
-                  <li><a href="#">Title 3</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Epidural Instructional Videos</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+                <a href="<%= videos_path %>">Videos</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
