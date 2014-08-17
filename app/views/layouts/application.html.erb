@@ -13,7 +13,6 @@
   href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
   <title>Dr. Manuel Vallejo's Academic Website</title>
@@ -51,5 +50,7 @@
 
   </div> <!-- /container -->
 </body>
+<%= jquery_include_tag Rails.application.config.jquery_version %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </html>
