@@ -1,8 +1,9 @@
 DrvallejoNet::Application.routes.draw do
 
   root 'welcome#index'
-  resources :documents, only: [:show, :index]
-  resources :videos, only: [:show, :index]
+  resources :videos,        only: [:index]
+  resources :documents,     only: [:index]
+  resources :presentations, only: [:index]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
