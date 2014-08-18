@@ -3,6 +3,7 @@ class CreateDocuments < ActiveRecord::Migration
     create_table :documents do |t|
       t.string :name
       t.string :source_url
+      t.string :description
 
       t.timestamps
     end
