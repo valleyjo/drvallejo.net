@@ -16,6 +16,12 @@ Document.create(name: 'Epidural Normogram',
                 source_url: 'https://drvallejo.blob.core.windows.net/documents/epidural_normogram.pdf',
                 description: '')
 
+#---------- Presentations ----------
+
+Presentation.create(name: 'Dental Injuries',
+                source_url: 'https://onedrive.live.com/embed?cid=B315873A7F99D9FA&resid=B315873A7F99D9FA%2116238&authkey=APej7_EZKROEHhQ&em=2',
+                description: '')
+
 #---------- Videos ----------
 
 Video.create(name: 'Labor Epidural Technique',
