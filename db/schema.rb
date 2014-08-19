@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(version: 20140818043311) do
   create_table "documents", force: true do |t|
     t.string   "name"
     t.string   "source_url"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "description"
   end
 
   create_table "presentations", force: true do |t|
