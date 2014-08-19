@@ -6,7 +6,7 @@ $ ->
   $("a[data-source-url]").click (e) ->
       e.preventDefault()
 
-      iframe_source = "<iframe src=\"" + $(this).data("source-url") + "\" width=\"402\" height=\"327\" frameborder=\"0\" scrolling=\"no\"></iframe>"
+      iframe_source = "<iframe src=\"" + $(this).data("source-url") + \"" frameborder=\"0\" width=\"960\" height=\"749\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>
 
       $("#presentation-view").addClass("text-center")
       $("#presentation-view").html(iframe_source)

@@ -19,8 +19,8 @@ Document.create(name: 'Epidural Normogram',
 #---------- Presentations ----------
 
 Presentation.create(name: 'Dental Injuries',
-                source_url: 'https://onedrive.live.com/embed?cid=B315873A7F99D9FA&resid=B315873A7F99D9FA%2116238&authkey=APej7_EZKROEHhQ&em=2',
-                description: '')
+                    source_url: 'https://docs.google.com/presentation/d/1cI6wX1e2wkyaVC_N_2MW_XrdBmYVLYiz1fCrF-0XBNY/embed?start=true&loop=false&delayms=3000',
+                    description: '')
 
 #---------- Videos ----------
 
