@@ -2,7 +2,7 @@
 lock '3.3.5'
 
 set :application, 'DrvallejoNet'
-set :repo_url, 'git@example.com:valleyjo/drvallejo.net.git'
+set :repo_url, 'git@github.com:valleyjo/drvallejo.net.git'
 
 # describe the rbenv environment we are deploying to
 set :rbenv_type, :user
