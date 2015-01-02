@@ -21,7 +21,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgresql
+  database: alexv
   pool: 5
   host: localhost
   timeout: 5000
