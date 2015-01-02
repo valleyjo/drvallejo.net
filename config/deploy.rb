@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.3.5'
+lock '3.1.0'
 
 set :application, 'DrvallejoNet'
 set :repo_url, 'git@github.com:valleyjo/drvallejo.net.git'
