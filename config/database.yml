@@ -21,7 +21,6 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: alexv
+  database: db/production.sqlite3
   pool: 5
-  host: localhost
   timeout: 5000
