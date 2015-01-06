@@ -9,11 +9,11 @@
 #---------- Documents ----------
 
 Document.create(name: 'Principals of Obstetric Anesthesia',
-                source_url: 'https://drvallejo.blob.core.windows.net/documents/principles_of_obstetric_anesthesia.docx',
+                source_url: 'https://drvallejo.blob.core.windows.net/documents/principles_of_obstetric_anesthesia.doc',
                 description: '')
 
 Document.create(name: 'Epidural Normogram',
-                source_url: 'https://drvallejo.blob.core.windows.net/documents/epidural_normogram.pdf',
+                source_url: 'https://drvallejo.blob.core.windows.net/documents/epidural_normogram.jpg',
                 description: '')
 
 #---------- Presentations ----------
