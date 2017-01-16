@@ -23,7 +23,7 @@ Presentation.create(name: 'Dental Injuries',
               description: '')
 
 Presentation.create(name: 'Transthoracic Echocardiography',
-              source_url: 'https://drive.google.com/file/d/0B5wWlkDDTgHkcVFuNU1VYkdkZVE/preview',
+              source_url: 'https://drive.google.com/file/d/0B5wWlkDDTgHkcVFuNU1VYkdkZVE/embed?start=true&loop=false&delayms=30000',
               description: '')
 
 #---------- Videos ----------
