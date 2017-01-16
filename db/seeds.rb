@@ -22,6 +22,10 @@ Presentation.create(name: 'Dental Injuries',
               source_url: 'https://docs.google.com/presentation/d/1cI6wX1e2wkyaVC_N_2MW_XrdBmYVLYiz1fCrF-0XBNY/embed?start=true&loop=false&delayms=30000',
               description: '')
 
+Presentation.create(name: 'Transthoracic Echocardiography',
+              source_url: 'https://drive.google.com/file/d/0B5wWlkDDTgHkcVFuNU1VYkdkZVE/preview',
+              description: '')
+
 #---------- Videos ----------
 
 Video.create(name: 'Labor Epidural Technique',
