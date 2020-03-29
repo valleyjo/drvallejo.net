@@ -12,14 +12,18 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="/">Welcome</a></li>
-        <li class="">
-          <a href="/documents">Documents</a></li>
-        <li class="">
-          <a href="/videos">Videos</a></li>
-        <li class="">
-          <a href="/presentations">Presentations</a></li>
+        <li class="{% if page.active_tab == "Welcome" %}active{% endif %}">
+          <a href="/">Welcome</a>
+        </li>
+        <li class="{% if page.active_tab == "Documents" %}active{% endif %}">
+          <a href="/documents">Documents</a>
+        </li>
+        <li {% if page.active_tab == "Videos" %} class="active" {% endif %}>
+          <a href="/videos">Videos</a>
+        </li>
+        <li {% if page.active_tab == "Presentations" %} class="active" {% endif %}>
+          <a href="/presentations">Presentations</a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
