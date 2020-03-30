@@ -13,16 +13,16 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="{% if page.active_tab == "Welcome" %}active{% endif %}">
-          <a href="/">Welcome</a>
+          <a href="{% link index.html %}">Welcome</a>
         </li>
         <li class="{% if page.active_tab == "Documents" %}active{% endif %}">
-          <a href="/documents">Documents</a>
+          <a href="{%link documents.html%}">Documents</a>
         </li>
         <li {% if page.active_tab == "Videos" %} class="active" {% endif %}>
-          <a href="/videos">Videos</a>
+          <a href="{% link videos.html %}">Videos</a>
         </li>
         <li {% if page.active_tab == "Presentations" %} class="active" {% endif %}>
-          <a href="/presentations">Presentations</a>
+          <a href="{% link presentations.html %}">Presentations</a>
         </li>
       </ul>
     </div><!--/.nav-collapse -->

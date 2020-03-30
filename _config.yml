@@ -22,7 +22,7 @@ title: Dr. Manuel Vallejo's Academic Website
 description: >- # this means to ignore newlines until "baseurl:"
   Dr. Manuel Vallejo's Academic Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.drvallejo.net/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 #theme: minima
