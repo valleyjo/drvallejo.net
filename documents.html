@@ -16,9 +16,8 @@ title: Dr. Manuel Vallejo's Academic Website
     </tr>
     {% for doc in site.data.documents %}
     <tr>
-      <td>{{ doc.count }}</td>
+      <td>{{ forloop.index }}</td>
       <td> <a href="{{ doc.address }}" target="_blank"> {{ doc.name }} </a></td>
-      <!--<td> <a href="/assets/documents/principles_of_obstetric_anesthesia.doc" target="_blank">Principals of Obstetric Anesthesia</a> -->
     </tr>
     {% endfor %}
   </table>
