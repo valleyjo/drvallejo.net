@@ -1,0 +1,23 @@
+- name: Principals of Obstetric Anesthesia
+  address: /assets/documents/principles_of_obstetric_anesthesia.doc
+  count: 1
+
+- name: Epidural Normogram
+  address: assets/documents/epidural_normogram.jpg
+  count: 2
+
+- name: Epidural Depth Equation
+  address: assets/documents/epidural_depth_equation.xlsx
+  count: 3
+
+- name: ERAS for C-Section (Full Protocol)
+  address: assets/documents/ERAS_for_C-Section_(Full Protocol).pdf
+  count: 4
+
+- name: ERAS for C-Section (Intraoperative Guide)
+  address: assets/documents/ERAS_for_C-Section_(Intraoperative Guide).pdf
+  count: 5
+
+- name: Daily OB Anesthesia Clinical Guide
+  address: assets/documents/daily_ob_anesthesia_clinical_guide.pdf
+  count: 6
